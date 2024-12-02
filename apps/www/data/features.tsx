@@ -2036,4 +2036,19 @@ This feature is especially beneficial for Python developers looking to build rob
       availableOnSelfHosted: true,
     },
   },
+  {
+    title: 'OrioleDB',
+    subtitle: '',
+    description: `
+`,
+    icon: Database,
+    products: [PRODUCT_SHORTNAMES.DATABASE, ADDITIONAL_PRODUCTS.PLATFORM],
+    heroImage: '',
+    docsUrl: 'https://supabase.com/docs/guides/database/orioledb',
+    slug: 'orioledb',
+    status: {
+      stage: PRODUCT_STAGES.PUBLIC_ALPHA,
+      availableOnSelfHosted: true,
+    },
+  },
 ]
